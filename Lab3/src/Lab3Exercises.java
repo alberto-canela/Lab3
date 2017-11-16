@@ -13,8 +13,8 @@ public class Lab3Exercises {
 		double width = screenSize.getWidth();
 		double height = screenSize.getHeight();
 		
-		myFrame.setLocation((int)Math.ceil(width/2-100), (int)Math.ceil(height/2-100));
-		myFrame.setSize(200, 200);
+		myFrame.setLocation((int)Math.ceil(width/2-300), (int)Math.ceil(height/2-200));
+		myFrame.setSize(300, 210);
 		
         MyPanelClass myPanel = new MyPanelClass();
         myFrame.getContentPane().add(myPanel);
